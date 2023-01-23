@@ -1,0 +1,102 @@
+.deals {
+    padding: 90px 0;
+    background-color: #1A1A1A;
+}
+
+.deals__element {
+    padding: 27px;
+    background-color: black;
+    background-image: url("../img/deals/ferrari_inside.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+    z-index: 1;
+}
+
+.deals__element::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.deals__element:nth-child(even) {
+    margin-top: 50px;
+    background-image: url("../img/deals/mustang_light.webp");
+}
+
+.deals__element__make {
+    padding-top: 280px;
+    color: #ffffff;
+    font-family: var(--teko-font-family);
+    font-size: 24px;
+    font-weight: 500;
+
+    line-height: 1;
+
+
+}
+
+.deals__element__price {
+    padding-top: 20px;
+    color: #E51937;
+    font-family: var(--notosans-font-family);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.deals__element__enquire-button {
+    padding-top: 26.25px;
+    font-family: var(--teko-font-family);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.deals__element__enquire-button a {
+    color: #ffffff;
+}
+
+.deals__element__enquire-button a:hover {
+    text-decoration: underline;
+}
+
+@media(min-width: 767px) {
+    
+    .deals__element:nth-child(even) {
+        margin: 0;
+    }
+    
+    .deals__elements__container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .deals__elements__container > div {
+        width: 48%;
+        height: 100%;
+    }
+    
+    
+}
+
+@media(min-width: 991px) {
+    .deals__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .deals__title {
+        width: 310px;
+    }
+
+    .deals__descriptions {
+        width: 310px;
+    }
+}

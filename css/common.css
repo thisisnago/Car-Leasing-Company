@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+:root {
+    --notosans-font-family: 'Noto Sans', sans-serif;
+    --teko-font-family: 'Teko', sans-serif;
+}
+
+.container {
+    min-width: 320px;
+    width: 90%;
+    margin: auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.filled-btn {
+    /* border: 2px solid #e51937; */
+    display: block;
+    background-color: #e51937;
+    padding: 13.5px 40px;
+
+    margin-top: 10px;
+    max-width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-family: var(--teko-font-family);
+    font-weight: 500;
+    transition: background-color 0.3s ease-in-out,
+        border-color 0.3s ease-in-out,
+        color 0.3s ease-in-out;
+}
+
+.filled-btn:hover {
+    background-color: #c40b27;
+    border-color: #c40b27;
+}
+
+.filled-btn:active {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: black;
+}
+
+.unfilled-btn {
+    display: block;
+    max-width: 100%;
+    border: 2px solid #e51937;
+    background-color: transparent;
+    margin-top: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: var(--teko-font-family);
+    font-weight: 500;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.unfilled-btn:hover {
+    background-color: #e51937;
+}
+
+.section__name {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: var(--teko-font-family);
+    letter-spacing: 2px;
+}
+
+.section__title {
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: var(--teko-font-family);
+    font-weight: 500;
+
+    line-height: 1;
+}
+
+.section__description {
+    padding: 20px 0 55px;
+    color: #aaa4a4;
+    font-size: 19px;
+    font-family: var(--notosans-font-family);
+    font-weight: 700;
+}
+
+@media(min-width: 767px) {
+    .section__name {
+        font-size: 21px;
+    }
+    
+    .section__title {
+        font-size: 76px;
+    }
+}
+
+@media(min-width: 991px) {
+    .container {
+        max-width: 1200px;
+    }
+}

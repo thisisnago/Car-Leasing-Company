@@ -1,0 +1,34 @@
+[
+   {
+      "id":1,
+      "make":"ROLLS-ROYCE",
+      "price":505.95,
+      "model":"Rolls-Royce Phantom VIII",
+      "engine":"6.75 L (412 cu in)",
+      "img":"img/cars/RR_Phantom-VIII.png"
+   },
+   {
+      "id":2,
+      "make":"BMW",
+      "price":374.45,
+      "model":"2021 BMW X6",
+      "engine":"xDrive 40i Sports Activity Coupe",
+      "img":"img/cars/BMW_X6.png"
+   },
+   {
+      "id":3,
+      "make":"ALFA ROMEO",
+      "price":199.95,
+      "model":"Alfa Romeo Giulia",
+      "engine":"2.9 L V6",
+      "img":"img/cars/AR_Giulia.png"
+   },
+   {
+      "id":4,
+      "make":"VOLKSWAGEN",
+      "price":210.45,
+      "model":"Volkswagen Golf Hatchback",
+      "engine":"2.0 TSI 245 GTI Performance 5dr",
+      "img":"img/cars/VW____.png"
+   }
+]

@@ -1,0 +1,147 @@
+.reviews {
+    background-color: #1a1a1a;
+    padding: 50px 0 60px;
+}
+
+.reviews__top {
+    text-align: center;
+}
+
+/* .reviews__main__element {
+    background-color: aliceblue;
+    width: 100%;
+    aspect-ratio: 2/2;
+} */
+
+.reviews__main {
+    margin: auto;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.reviews__main button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 0.9;
+    cursor: pointer;
+
+    font-size: 30px;
+    color: #e51937;
+    background-color: transparent;
+    border: none;
+}
+
+.reviews__main__prev-button {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.reviews__main__next-button {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.reviews__main__element {
+    text-align: center;
+
+    width: 100%;
+}
+
+.reviews__main__element__image {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+
+.reviews__main__element__image img {
+    width: 100%;
+    height: 100%;
+}
+
+.reviews__main__element__text__container {
+    padding: 0 20px;
+}
+
+.reviews__main__element__name {
+    padding-top: 20px;
+    color: #ffffff;   
+    font-size: 24px;
+    font-family: var(--teko-font-family); 
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.reviews__main__element__job {
+    padding-top: 20px;
+    color: #e51937;
+    font-size: 12px;
+    font-family: var(--notosans-font-family);
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.reviews__main__element__response {
+    padding-top: 20px;
+    color: #9B9797;
+    font-size: 17px;
+    font-family: var(--notosans-font-family);
+    
+}
+
+.reviews__main__element__date {
+    padding-top: 20px;
+    color: #e51937;
+    font-size: 12px;
+    font-family: var(--notosans-font-family);
+    text-transform: uppercase;
+}
+
+@media(min-width: 991px) {
+
+    .reviews__main__element {
+        margin: auto;
+        max-width: 740px;
+    }
+
+    .reviews__main__element__image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .reviews__main__element__name {
+        font-size: 28px;
+    }
+
+    .reviews__main__element__job {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .reviews__main__element__date {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .reviews__main__prev-button {
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .reviews__main__next-button {
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .reviews__main__element__text__container {
+        padding: 0;
+    }
+}

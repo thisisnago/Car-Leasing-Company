@@ -1,0 +1,89 @@
+.cars{
+    background-color: #1a1a1a;
+    padding: 55px 0 90px;
+
+    text-align: center;
+}
+
+.cars__vehicles__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 275px;
+    height: 50vw;
+}
+
+.cars__vehicles__element{
+    padding: 0 15px;
+    user-select: none;
+    width: 100%;
+    flex: 1;
+
+    /* max-width: 767px; */
+    /* height: 400px; */
+    margin: auto;
+
+}
+
+.cars__vehicles__img{
+    width: 90%;
+    aspect-ratio: 5/2;
+    /* border: 1px solid red; */
+    display: flex;
+    margin: auto;
+}
+
+.cars__vehicles__img img{
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cars__vehicles__make{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: var(--teko-font-family);
+    font-weight: 500;
+}
+
+.cars__vehicles__price{
+    padding-top: 15px;
+    color: #e51937;
+    font-family: var(--notosans-font-family);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.cars__vehicles__model{
+    padding-top: 20px;
+    color: #aaa4a4;
+    font-family: var(--notosans-font-family);
+    font-size: 17px;
+}
+
+.cars__vehicles__learn-more-button{
+    padding-top: 25px;
+}
+
+.cars__vehicles__learn-more-button a{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: var(--teko-font-family);
+}
+
+.cars__vehicles__learn-more-button a:hover{
+    text-decoration: underline;
+}
+
+@media(min-width: 991px) {
+    .cars__vehicles__container {
+        min-height: 300px;
+        height: auto;
+    }
+
+    .cars__vehicles__model {
+        height: 95px;
+    }
+}

@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header__container">
+
+            <nav class="navigation container">
+
+                <div class="header__navigation">
+                    <div class="header__navigation__logo">
+                        <img src="img/header/logo.svg" alt="CLC LOGO">
+                    </div>
+
+                    <div class="header__navigation__burger">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="header__nav-wrapper">
+                    <div class="header__nav__links">
+                        <a href="#" class="header__nav__links__element navigation__link">CARS</a>
+                        <a href="#" class="header__nav__links__element navigation__link">ABOUT US</a>
+                        <a href="#" class="header__nav__links__element navigation__link">REVIEWS</a>
+                        <a href="#" class="header__nav__links__element navigation__link">NEWS</a>
+                        <a href="#" class="header__nav__links__element navigation__link">OUR CONTACTS</a>
+                    </div>
+
+                    <div class="header__nav__socials">
+                        <div class="header__nav__socials__element navigation__link">
+                            <a href="http://facebook.com" target="_blank">
+                                <div class="header__nav__socials__logo header__nav__socials__logo__facebook">
+                                    <svg class="si633a145dbfb71e000df7599afb1344eb8cf2474d8cf5ce799a20d2e31664750693541 svgIcon_1J7 outlined_2wD darkTheme_3jZ"
+                                        viewBox="0 0 32 32">
+                                        <path class="header__nav__socials__logo__background"
+                                            d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z">
+                                        </path>
+                                        <path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                                            class="header__nav__socials__logo__border">
+                                        </path>
+                                        <path class="header__nav__socials__logo__inside"
+                                            d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z">
+                                        </path>
+                                    </svg>
+
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="header__nav__socials__element navigation__link">
+                            <a href="http://twitter.com" target="_blank">
+                                <div class="header__nav__socials__logo header__nav__socials__logo__twitter">
+                                    <svg class="si633a145dbfb71e000df7599afb1344eb8cf2474d8cf5ce799a20d2e31664750693541 svgIcon_1J7 outlined_2wD darkTheme_3jZ"
+                                        viewBox="0 0 32 32">
+                                        <path class="header__nav__socials__logo__background"
+                                            d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M23.5445333,10.2885333 C23.0796444,10.5863111 22.0122666,11.0190222 21.4858666,11.0190222 L21.4858666,11.0199111 C20.8848,10.392 20.0385777,10 19.1000888,10 C17.2773333,10 15.7992889,11.4780444 15.7992889,13.3000888 C15.7992889,13.5532445 15.8286222,13.8001778 15.8828444,14.0369778 L15.8823111,14.0369778 C13.4097777,13.9720888 10.7056,12.7328 9.07768889,10.6117333 C8.0768,12.3441778 8.94293333,14.2709334 10.0787556,14.9729778 C9.68995555,15.0023111 8.97422222,14.9281778 8.63733333,14.5994666 C8.61475555,15.7493334 9.16764444,17.2728889 11.1836444,17.8256 C10.7953778,18.0344889 10.1080889,17.9745778 9.80924444,17.9301333 C9.91413329,18.9008 11.2734222,20.1697778 12.7598222,20.1697778 C12.2300445,20.7825777 10.2368,21.8940444 8,21.5404445 C9.51911111,22.4647111 11.2896,22.9999999 13.1635555,22.9999999 C18.4888889,22.9999999 22.6245334,18.6840889 22.4019555,13.3598222 C22.4010666,13.3539556 22.4010666,13.3480889 22.4005334,13.3416889 C22.4010666,13.328 22.4019555,13.3143111 22.4019555,13.3000888 C22.4019555,13.2835556 22.4005334,13.2679111 22.4,13.2519111 C22.8847999,12.9203555 23.5352888,12.3338667 24,11.5619556 C23.7304889,11.7104 22.9219555,12.0076445 22.1696,12.0814222 C22.6524444,11.8208 23.3678222,10.9672889 23.5445333,10.2885333 Z">
+                                        </path>
+                                        <path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                                            class="header__nav__socials__logo__border">
+                                        </path>
+                                        <path class="header__nav__socials__logo__inside"
+                                            d="M23.5445333,10.2885333 C23.0796444,10.5863111 22.0122666,11.0190222 21.4858666,11.0190222 L21.4858666,11.0199111 C20.8848,10.392 20.0385777,10 19.1000888,10 C17.2773333,10 15.7992889,11.4780444 15.7992889,13.3000888 C15.7992889,13.5532445 15.8286222,13.8001778 15.8828444,14.0369778 L15.8823111,14.0369778 C13.4097777,13.9720888 10.7056,12.7328 9.07768889,10.6117333 C8.0768,12.3441778 8.94293333,14.2709334 10.0787556,14.9729778 C9.68995555,15.0023111 8.97422222,14.9281778 8.63733333,14.5994666 C8.61475555,15.7493334 9.16764444,17.2728889 11.1836444,17.8256 C10.7953778,18.0344889 10.1080889,17.9745778 9.80924444,17.9301333 C9.91413329,18.9008 11.2734222,20.1697778 12.7598222,20.1697778 C12.2300445,20.7825777 10.2368,21.8940444 8,21.5404445 C9.51911111,22.4647111 11.2896,22.9999999 13.1635555,22.9999999 C18.4888889,22.9999999 22.6245334,18.6840889 22.4019555,13.3598222 C22.4010666,13.3539556 22.4010666,13.3480889 22.4005334,13.3416889 C22.4010666,13.328 22.4019555,13.3143111 22.4019555,13.3000888 C22.4019555,13.2835556 22.4005334,13.2679111 22.4,13.2519111 C22.8847999,12.9203555 23.5352888,12.3338667 24,11.5619556 C23.7304889,11.7104 22.9219555,12.0076445 22.1696,12.0814222 C22.6524444,11.8208 23.3678222,10.9672889 23.5445333,10.2885333">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="header__nav__socials__element navigation__link">
+                            <a href="https://www.linkedin.com/" target="_blank">
+                                <div class="header__nav__socials__logo header__nav__socials__logo__linkedin">
+                                    <svg class="si633a145dbfb71e000df7599afb1344eb8cf2474d8cf5ce799a20d2e31664750693541 svgIcon_1J7 outlined_2wD darkTheme_3jZ"
+                                        viewBox="0 0 32 32">
+                                        <path class="header__nav__socials__logo__background"
+                                            d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M9.97232285,11.5995823 C11.0610099,11.5995823 11.9435914,10.7947111 11.9435914,9.80075848 C11.9435914,8.8059265 11.0610099,8 9.97232285,8 C8.88258153,8 8,8.8059265 8,9.80075848 C8,10.7947111 8.88258153,11.5995823 9.97232285,11.5995823 Z M8.4518207,23.1711013 L11.9888237,23.1711013 L11.9888237,12.9700277 L8.4518207,12.9700277 L8.4518207,23.1711013 Z M16.9530531,17.4974678 C16.9530531,16.3276256 17.5065334,15.1836392 18.8299664,15.1836392 C20.1533994,15.1836392 20.4788107,16.3276256 20.4788107,17.4695014 L20.4788107,23.0408069 L24,23.0408069 L24,17.2417242 C24,13.2127953 21.6184531,12.518207 20.1533994,12.518207 C18.6895756,12.518207 17.8821971,13.0133365 16.9530531,14.2130799 L16.9530531,12.8397333 L13.4218484,12.8397333 L13.4218484,23.0408069 L16.9530531,23.0408069 L16.9530531,17.4974678 Z">
+                                        </path>
+                                        <path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                                            class="header__nav__socials__logo__border">
+                                        </path>
+                                        <path class="header__nav__socials__logo__inside"
+                                            d="M9.97232285,11.5995823 C8.88258153,11.5995823 8,10.7947111 8,9.80075848 C8,8.8059265 8.88258153,8 9.97232285,8 C11.0610099,8 11.9435914,8.8059265 11.9435914,9.80075848 C11.9435914,10.7947111 11.0610099,11.5995823 9.97232285,11.5995823 Z M8.4518207,23.1711013 L8.4518207,12.9700277 L11.9888237,12.9700277 L11.9888237,23.1711013 L8.4518207,23.1711013 Z M16.9530531,17.4974678 L16.9530531,23.0408069 L13.4218484,23.0408069 L13.4218484,12.8397333 L16.9530531,12.8397333 L16.9530531,14.2130799 C17.8821971,13.0133365 18.6895756,12.518207 20.1533994,12.518207 C21.6184531,12.518207 24,13.2127953 24,17.2417242 L24,23.0408069 L20.4788107,23.0408069 L20.4788107,17.4695014 C20.4788107,16.3276256 20.1533994,15.1836392 18.8299664,15.1836392 C17.5065334,15.1836392 16.9530531,16.3276256 16.9530531,17.4974678 Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-main container">
+                <div class="header-main__title">
+                    <p>
+                        BUSINESS AND PERSONAL LEASING EXPERTS
+                    </p>
+                </div>
+
+                <div class="header-main__description">
+                    You will be driving. We'll taking care of the rest.
+                </div>
+
+                <div class="header-main__buttons">
+                    <a class="filled-btn header-main__buttons__request-a-quote" href="#">REQUEST A QUOTE</a>
+                    <a class="unfilled-btn header-main__buttons__learn-more" href="#">LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="benefits">
+            <div class="benefits__container container">
+                <button class="benefits__prev-button carousel-btn">&lt;</button>
+                <div class="benefits__elements__container"></div>
+                <button class=" benefits__next-button carousel-btn">&gt;</button>
+            </div>
+        </section>
+
+        <section class="lease-types">
+            <div class="lease-types__container container">
+                <div class="lease-types__element">
+                    <div class="lease-types__element__image__container">
+                        <div class="lease-types__element__image">
+                            <img src="img/lease-types/business/volvo_xc90.png" alt="Volvo XC90">
+                        </div>
+                    </div>
+
+                    <div class="lease-types__element__text">
+                        <p class="lease-types__element__title">LEASE TYPES</p>
+                        <p class="lease-types__element__type">BUSINESS</p>
+                        <p class="lease-types__element__description">
+                            We provide car leasing services for
+                            companies of all sizes. Whether you need to meet partners at the airport in a high-status
+                            car or deliver documents throughout the day, we will find a solution for you.
+                        </p>
+                        <div class="lease-types__element__button__container">
+                            <a href="#" class="filled-btn lease-types__element__button">LEARN MORE</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="lease-types__element">
+                    <div class="lease-types__element__image__container">
+                        <div class="lease-types__element__image">
+                            <img src="img/lease-types/personal/audi_e-tron_suv.png" alt="Audi E-tron">
+                        </div>
+                    </div>
+
+                    <div class="lease-types__element__text">
+                        <p class="lease-types__element__title">LEASE TYPES</p>
+                        <p class="lease-types__element__type">PERSONAL</p>
+                        <p class="lease-types__element__description">
+                            Do you need a reliable car for the whole family, outings, or just a daily car to work and
+                            shop? Or, maybe, you want to rent a sports car? At FutureLease, you will find everything you
+                            need.
+                        </p>
+
+                        <div class="lease-types__element__button__container">
+                            <a href="#" class="filled-btn lease-types__element__button">LEARN MORE</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="cars">
+            <div class="container">
+
+                <p class="cars__name section__name">CARS</p>
+                <p class="cars__title section__title">AVAILABLE OPTIONS</p>
+                <p class="cars__descriptions section__description">All these vehicles are available for lease
+                    right now.</p>
+
+                <div class="cars__vehicles__container">
+                    <!-- <div class="cars__vehicles__element">
+                        <div class="cars__vehicles__img">
+                            <img src="img/cars/RR_Phantom-VIII.png" alt="RR Phantom VIII">
+                            <img src="img/cars/BMW_X6.png" alt="RR Phantom VIII">
+                        </div>
+
+                        <p class="cars__vehicles__make">ROLLS-ROYCE</p>
+                        <p class="cars__vehicles__price">$505.95 / MONTH</p>
+                        <p class="cars__vehicles__model">
+                            Rolls-Royce Phantom VIII <br>
+                            6.75 L (412 cu in)
+                        </p>
+                        <div class="cars__vehicles__learn-more-button">
+                            <a href="#">LEARN MORE</a>
+                        </div>
+
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <section class="advice">
+            <div class="container">
+                <p class="advice__title">
+                    WANT SOME ADVICE? <br>
+                    WE'RE UP TO IT.
+                </p>
+
+                <div class="advice__buttons">
+                    <a class="filled-btn advice__buttons__element" href="#">
+                        GET A CONSULTATION
+                    </a>
+
+                    <a class="unfilled-btn advice__buttons__element" href="#">
+                        LEARN MORE
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="deals">
+            <div class="deals__container container">
+                <div class="deals__top__text">
+                    <p class="deals__name section__name">DEALS</p>
+                    <p class="deals__title section__title">HOTTEST DEALS</p>
+                    <p class="deals__descriptions section__description">
+                        Get advantage of the special prices on car lease!
+                    </p>
+                </div>
+
+                <div class="deals__elements__container">
+                    <div class="deals__element">
+                        <p class="deals__element__make">
+                            FORD FOCUS HATCHBACK 1.0 ECOBOOST 140 ST-LINE
+                        </p>
+    
+                        <p class="deals__element__price">
+                            FROM $149.00/MONTH
+                        </p>
+    
+                        <p class="deals__element__enquire-button">
+                            <a href="#">
+                                ENQUIRE NOW
+                            </a>
+                        </p>
+                    </div>
+    
+                    <div class="deals__element">
+                        <p class="deals__element__make">
+                            VOLKSWAGEN GOLF DIESEL HATCHBACK 2.0 TDI 184 GTD 5DR
+                        </p>
+    
+                        <p class="deals__element__price">
+                            FROM $224.99/MONTH
+                        </p>
+    
+                        <p class="deals__element__enquire-button">
+                            <a href="#">
+                                ENQUIRE NOW
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="about-us">
+
+            <div class="about-us__image__container">
+                <div class="about-us__image">
+                    <img src="img/about-us/background.png" alt="Background">
+                </div>
+            </div>
+
+            <div class="about-us__main">
+                <div class="container">
+                    <p class="about-us__main__name section__name">ABOUT US</p>
+                    <p class="about-us__main__title section__title">DRIVE A CAR WITH A LOW <span>LEASING
+                            RATE</span></p>
+                    <p class="about-us__main__descriptions section__description">FutureLease is a leading
+                        leasing specialist in the USA for business and personal leasing.</p>
+
+                    <p class="about-us__main__text-block">
+                        We have over a hundred deals for car and van leasing. Our first leasing deal came out in 2004.
+                        Since then, we've become the leaders on the market, supplying vehicles of different models for
+                        over 15 years. We've satisfied thousands of clients in the USA and other countries alike.
+                    </p>
+
+                    <p class="about-us__main__text-block">
+                        FutureLease has a worldwide network of manufacturers and car distributors — that's why we're
+                        able to get you the fittest leasing deals. Our goal is to build a continuous collaboration
+                        between the company and our clients, to make sure you'll go back to us time and time again.
+                    </p>
+
+                    <p class="about-us__main__buttons">
+                        <a href="" class="filled-btn">
+                            REQUEST A QUOTE
+                        </a>
+
+                        <a href="" class="unfilled-btn">
+                            LEARN MORE
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="features__top">
+                    <p class="section__name">
+                        FEATURES
+                    </p>
+
+                    <p class="features__title section__title">
+                        HERE'S WHAT YOU NEED TO KNOW ABOUT LEASING
+                    </p>
+
+                    <p class="section__description">
+                        Have you ever leased a car? It's simple!
+                    </p>
+                </div>
+
+                <div class="features__main">
+
+                    <div class="features__main__element">
+                        <div class="features__main__element__image">
+                            <img src="img/features/insured-leasing_icon.svg" alt="Fully insured leasing">
+                        </div>
+
+                        <p class="features__main__element__title">
+                            FULLY INSURED LEASING
+                        </p>
+
+                        <p class="features__main__element__description">
+                            AD Insurance Company is our partner. Fully Comprehensive Insurance is included in the basic
+                            package.
+                        </p>
+
+                        <div class="features__main__element__button">
+                            <a href="#">
+                                LEARN MORE
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="features__main__element">
+                        <div class="features__main__element__image">
+                            <img src="img/features/maintaining_icon.svg" alt="MAINTAINING ALL THE VEHICLES">
+                        </div>
+
+                        <p class="features__main__element__title">
+                            MAINTAINING ALL THE VEHICLES
+                        </p>
+
+                        <p class="features__main__element__description">
+                            You get a fully serviceable car that has passed a timely technical inspection. No surprises
+                            on the roads!
+                        </p>
+
+                        <div class="features__main__element__button">
+                            <a href="#">
+                                LEARN MORE
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="features__main__element">
+                        <div class="features__main__element__image">
+                            <img src="img/features/leasing-for-trips_icon.svg" alt="CAR LEASING FOR PERSONAL TRIPS">
+                        </div>
+
+                        <p class="features__main__element__title">
+                            CAR LEASING FOR PERSONAL TRIPS
+                        </p>
+
+                        <p class="features__main__element__description">
+                            If you are planning a family trip or need a car for daily rides, we will find a suitable and
+                            affordable option.
+                        </p>
+
+                        <div class="features__main__element__button">
+                            <a href="#">
+                                LEARN MORE
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="features__main__element">
+                        <div class="features__main__element__image">
+                            <img src="img/features/leasing-for-business_icon.svg" alt="LEASING FOR BUSINESS AFFAIRS">
+                        </div>
+
+                        <p class="features__main__element__title">
+                            LEASING FOR BUSINESS AFFAIRS
+                        </p>
+
+                        <p class="features__main__element__description">
+                            We work with companies that need vehicles for representational activities or simply daily
+                            use.
+                        </p>
+
+                        <div class="features__main__element__button">
+                            <a href="#">
+                                LEARN MORE
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="features__main__element">
+                        <div class="features__main__element__image">
+                            <img src="img/features/leasing-deals_icon.svg" alt="SHORT-TERM LEASING DEALS">
+                        </div>
+
+                        <p class="features__main__element__title">
+                            SHORT-TERM LEASING DEALS
+                        </p>
+
+                        <p class="features__main__element__description">
+                            You can start with 3 or 6 months of lease. We will find a suitable option tailored to your
+                            needs.
+                        </p>
+
+                        <div class="features__main__element__button">
+                            <a href="#">
+                                LEARN MORE
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="features__main__element">
+                        <div class="features__main__element__image">
+                            <img src="img/features/contract-hire-guide_icon.svg" alt="CONTRACT HIRE GUIDE">
+                        </div>
+
+                        <p class="features__main__element__title">
+                            CONTRACT HIRE GUIDE
+                        </p>
+
+                        <p class="features__main__element__description">
+                            The monthly lease amount is based on the original cost of the vehicle, the mileage, and the
+                            length of the contract.
+                        </p>
+
+                        <div class="features__main__element__button">
+                            <a href="#">
+                                LEARN MORE
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="container">
+                <div class="reviews__top">
+                    <p class="section__name">
+                        REVIEWS
+                    </p>
+
+                    <p class="section__title">
+                        WHAT OUR CLIENTS SAY
+                    </p>
+
+                    <p class="section__description">
+                        We're happy to receive your testimonials and provide you with exceptional services!
+                    </p>
+                </div>
+
+                <div class="reviews__main">
+                    <button class="reviews__main__prev-button">&lt;</button>
+                    <div class="reviews__main__elements__container">
+
+
+
+
+
+                    </div>
+                    <button class="reviews__main__next-button">&gt;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="container">
+                <div class="news__top">
+                    <p class="section__name">
+                        NEWS
+                    </p>
+
+                    <p class="section__title">
+                        LATEST NEWS
+                    </p>
+
+                    <p class="section__description">
+                        Read articles about the automotive industry.
+                    </p>
+                </div>
+
+                <div class="news__main">
+                    <div class="news__main__element">
+                        <div class="news__main__element__image">
+                            <img src="img/news/bmw.png" alt="BMW">
+                        </div>
+
+                        <p class="news__main__topic-and-date">
+                            NEWS | SEPTEMBER 23, 2022
+                        </p>
+
+                        <p class="news__main__title">
+                            AUDI AND HYUNDAI TO COOPERATE ON HYDROGEN FUEL
+                        </p>
+
+                        <p class="news__main__description">
+                            Audi and Hyundai have announced plans to jointly bring the fuel cell to volume production
+                            more quickly and more efficiently than is currently the case, as well as exploring more...
+                        </p>
+
+                        <div class="news__main__button">
+                            <a class="filled-btn" href="#">
+                                READ MORE
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="news__main__element">
+                        <div class="news__main__element__image">
+                            <img src="img/news/speedometer.png" alt="BMW speedometer">
+                        </div>
+
+                        <p class="news__main__topic-and-date">
+                            REVIEW | SEPTEMBER 24, 2022
+                        </p>
+
+                        <p class="news__main__title">
+                            REVIEW: CITROEN C3 AIRCROSS,
+                            A STYLISH GAME-CHANGER
+                        </p>
+
+                        <p class="news__main__description">
+                            You could be forgiven for thinking Citroen was already a player in the small SUV sector, but
+                            its C3 Aircross is the first true entrant in this burgeoning class. While the C4 Cactus...
+                        </p>
+
+                        <div class="news__main__button">
+                            <a class="filled-btn" href="#">
+                                READ MORE
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="news__main__element">
+                        <div class="news__main__element__image">
+                            <img src="img/news/audi.png" alt="AUDI">
+                        </div>
+
+                        <p class="news__main__topic-and-date">
+                            TOP 55 | SEPTEMBER 22, 2022
+                        </p>
+
+                        <p class="news__main__title">
+                            TOP FIVE CARS FOR LESS THAN $300 PER MONTH
+                        </p>
+
+                        <p class="news__main__description">
+                            We’ve already checked out what cars are available if you’ve got a budget of $200 per month,
+                            but what if you can stretch to $300?
+                            As monthly payments on lease cars are...
+                        </p>
+
+                        <div class="news__main__button">
+                            <a class="filled-btn" href="#">
+                                READ MORE
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="brands">
+            <div class="container">
+                <div class="brands__main">
+                    <div class="brands__element">
+                        <div class="brands__element__image">
+                            <img src="img/brands/toyota_logo.svg" alt="Toyota">
+                        </div>
+                    </div>
+
+                    <div class="brands__element">
+                        <div class="brands__element__image">
+                            <img src="img/brands/citroen_logo.svg" alt="Citroen">
+                        </div>
+                    </div>
+
+                    <div class="brands__element">
+                        <div class="brands__element__image">
+                            <img src="img/brands/hyundai_logo.svg" alt="Hyundai">
+                        </div>
+                    </div>
+
+                    <div class="brands__element">
+                        <div class="brands__element__image">
+                            <img src="img/brands/honda_logo.svg" alt="Honda">
+                        </div>
+                    </div>
+
+                    <div class="brands__element">
+                        <div class="brands__element__image">
+                            <img src="img/brands/tesla_logo.svg" alt="Tesla">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="brand__bottom">
+                <div class="brand__bottom__image">
+                    <img src="img/brands/bottom-image.png" alt="Hyundai">
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts">
+            <div class="container">
+                <div class="contacts__container">
+                    <div class="contacts__text">
+                        <p class="contacts__title">
+                            DO YOU HAVE QUESTIONS?
+                            DO NOT WAIT, <span>CONTACT US!</span>
+                        </p>
+
+                        <p class="contacts__description">
+                            Need leasing advice? Our team of leasing advisors is here to help.
+                        </p>
+
+                        <div class="contacts__phone-and-number__container">
+                            <div class="contacts__phone contacts__element">
+                                <div class="contacts__phone__icon contacts__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
+                                        enable-background="new 0 0 100 100" xml:space="preserve" style="max-width:100%"
+                                        height="100%">
+                                        <path
+                                            d="M90.1,75.1l-0.5-1c-1.4-3.3-18.6-8.3-20-8.4l-1.1,0.1c-2.1,0.4-4.4,2.3-8.9,6.2c-0.9,0.8-2.1,1-3.2,0.4  c-5.9-3.3-13.1-9.9-16.7-13.9c-3.9-4.3-8.6-11.4-10.8-17.1c-0.4-1.1,0-2.3,0.8-3.1c5.1-4.6,7.3-6.8,7.5-9.2c0.1-1.4-2.9-19.1-6-20.8  l-0.9-0.6c-2-1.3-5-3.2-8.3-2.5c-0.8,0.2-1.6,0.5-2.3,0.9C17.5,7.5,12,11.3,9.5,16.2C8,19.3,7.3,47.4,28.3,71.1  c20.8,23.5,46.5,24.5,50.3,23.7l0.1,0l0.3-0.1c5.2-1.9,9.6-6.8,11.3-8.9C93.4,82.1,91.3,77.6,90.1,75.1z"
+                                            style="" fill="currentColor"></path>
+                                    </svg>
+                                </div>
+
+                                <p class="contacts__number__phone contacts__link">
+                                    <a href="tel:+1 (234) 567 89 00">
+                                        +1 (234) 567 89 00
+                                    </a>
+                                </p>
+                            </div>
+
+                            <div class="contacts__email contacts__element">
+                                <div class="contacts__email__icon contacts__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        version="1.1" x="0px" y="0px" viewBox="0 0 30 22.5"
+                                        enable-background="new 0 0 30 22.5" xml:space="preserve" style="max-width:100%"
+                                        height="100%">
+                                        <g style="" fill="currentColor">
+                                            <polygon fill="currentColor" points="28.576,0 1.424,0 15,11.88  " style="">
+                                            </polygon>
+                                            <polygon fill="currentColor" points="20.046,9.956 30,21.094 30,1.245  "
+                                                style="">
+                                            </polygon>
+                                            <polygon fill="currentColor" points="0,1.245 0,21.094 9.953,9.954  "
+                                                style="">
+                                            </polygon>
+                                            <polygon fill="currentColor"
+                                                points="15,14.37 11.364,11.189 1.257,22.5 28.742,22.5 18.635,11.189  "
+                                                style="">
+                                            </polygon>
+                                        </g>
+                                    </svg>
+                                </div>
+
+                                <p class="contacts__email__address contacts__link">
+                                    <a href="mailto:futurelease@email.com">
+                                        futurelease@email.com
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contacts__map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.530507847667!2d-73.95550858499848!3d40.68431247933497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b912bcb5d9f%3A0x61638eb7d7a9cf6c!2s142%20Madison%20St%2C%20Brooklyn%2C%20NY%2011216!5e0!3m2!1suk!2sus!4v1672701106184!5m2!1suk!2sus"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="photos-carousel">
+            <div class="container">
+                <div class="photos-carousel__images__container">
+
+                    <!-- <img src="img/photos-carousel/tesla_model-3_inside.png" alt="Cars"> -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer__container">
+                <section class="footer__main">
+                    <div class="footer__main__logo">
+                        <img src="img/footer/logo.svg" alt="Logo">
+                    </div>
+
+                    <p class="footer__main__description">
+                        FUTURELEASE IS A LEADING USA COMPANY FOR BUSINESS AND PERSONAL LEASING.
+                    </p>
+
+                    <div class="footer__main__links">
+
+                        <div class="footer__main__links__element">
+                            <a href="#">
+                                <svg class="si633a145dbfb71e000df7599b641e1540c5d54a3896ea6f2505ade8201664750695003 svgIcon_1J7 filled_Qbi darkTheme_3jZ"
+                                    viewBox="0 0 32 32">
+                                    <path class="outer"
+                                        d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z">
+                                    </path>
+                                    <path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                                        class="border">
+                                    </path>
+                                    <path class="logo"
+                                        d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z"
+                                        style="color:#fff;fill:#fff">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="footer__main__links__element">
+                            <a href="#">
+                                <svg class="si633a145dbfb71e000df7599b641e1540c5d54a3896ea6f2505ade8201664750695003 svgIcon_1J7 filled_Qbi darkTheme_3jZ"
+                                    viewBox="0 0 32 32">
+                                    <g>
+                                        <path class="outer"
+                                            d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+                                        </path>
+                                    </g>
+                                    <path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                                        class="border"></path>
+                                    <g>
+                                        <path class="logo" style="fill:#fff;color:#fff"
+                                            d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="footer__main__links__element">
+                            <a href="#">
+                                <svg class="si633a145dbfb71e000df7599b641e1540c5d54a3896ea6f2505ade8201664750695003 svgIcon_1J7 filled_Qbi darkTheme_3jZ"
+                                    viewBox="0 0 32 32">
+                                    <path class="outer"
+                                        d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z">
+                                    </path>
+                                    <path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                                        class="border"></path>
+                                    <path class="logo"
+                                        d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z"
+                                        style="color:#fff;fill:#fff"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="footer__navigation">
+                    <p class="footer__navigation__title footer__title">
+                        NAVIGATION
+                    </p>
+
+                    <div class="footer__navigation__links footer__links">
+                        <a href="#">CARS</a>
+                        <a href="#">DEALS</a>
+                        <a href="#">ABOUT US</a>
+                        <a href="#">FEATURES</a>
+                    </div>
+                </section>
+
+                <section class="footer__quick-links">
+                    <p class="footer__quick-links__title footer__title">
+                        QUICK LINKS
+                    </p>
+
+                    <div class="footer__quick-links__links footer__links">
+                        <a href="#">NEWS</a>
+                        <a href="#">PARTNERS</a>
+                        <a href="#">GALLERY</a>
+                        <a href="#">CONTACTS</a>
+                    </div>
+                </section>
+
+                <section class="footer__help-and-support">
+                    <p class="footer__help-and-support__title footer__title">
+                        HELP & SUPPORT
+                    </p>
+
+                    <div class="footer__help-and-support__links footer__links">
+                        <a href="#">GUIDE TO LEASING</a>
+                        <a href="#">COMPLAINT PROCEDURE</a>
+                        <a href="#">PRIVACY POLICY</a>
+                        <a href="#">TERMS & CONDITIONS</a>
+                    </div>
+                </section>
+
+                <section class="footer__offers">
+                    <div class="footer__title">GET SPECIAL OFFERS</div>
+
+                    <form class="footer__offers__form" action="">
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                        <button class="footer__offers__submit-button filled-btn">SUBSCRIBE</button>
+                    </form>
+
+                </section>
+
+            </div>
+
+            <div class="footer__bottom">
+                <div class="footer__bottom__line"></div>
+
+                <div class="footer__bottom__text">
+                    <p>© CREATED BY</p>
+                    <p>ALL RIGHTS RESERVED</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/burger-menu.js"></script>
+    <script src="js/benefits.js"></script>
+    <script src="js/cars.js"></script>
+    <script src="js/reviews.js"></script>
+    <script src="js/photos-carousel.js"></script>
+</body>
+
+</html>
