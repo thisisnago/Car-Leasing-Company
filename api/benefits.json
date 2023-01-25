@@ -1,0 +1,22 @@
+[
+    {
+        "img": "img/benefits/card__icon.svg",
+        "title": "BETTER THAN COMPETITORS",
+        "description": "Have you found a better deal in a different company? Reach out to us and get 1 month for free."
+    },
+    {
+        "img": "img/benefits/car-rate__icon.svg",
+        "title": "AFFORDABLE RATES",
+        "description": "We are constantly keeping an eye on the prices to make sure we'll get you the best deal there is on the market."
+    },
+    {
+        "img": "img/benefits/document__icon.svg",
+        "title": "ALL LEGAL PAPERWORK FILED",
+        "description": "There's a warranty for every car of the company. All the vehicles are taxed and have the breakdown cover."
+    },
+    {
+        "img": "img/benefits/monitor__icon.svg",
+        "title": "A QUOTATION FOR ANY MODEL",
+        "description": "The company can give a no-obligation quotation for the cars of all models and types."
+    }
+]
