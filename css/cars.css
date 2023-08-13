@@ -1,5 +1,5 @@
 .cars{
-    background-color: #1a1a1a;
+    background-color: var(--cars-bg-color);
     padding: 55px 0 90px;
 
     text-align: center;
@@ -19,7 +19,10 @@
     user-select: none;
     width: 100%;
     flex: 1;
+
+    /* max-width: 767px; */
     margin: auto;
+
 }
 
 .cars__vehicles__img{
@@ -36,7 +39,7 @@
 }
 
 .cars__vehicles__make{
-    color: #ffffff;
+    color: var(--cars-make-color);
     font-size: 24px;
     font-family: var(--teko-font-family);
     font-weight: 500;
@@ -44,7 +47,7 @@
 
 .cars__vehicles__price{
     padding-top: 15px;
-    color: #e51937;
+    color: var(--cars-price-color);
     font-family: var(--notosans-font-family);
     font-size: 12px;
     font-weight: 500;
@@ -52,7 +55,7 @@
 
 .cars__vehicles__model{
     padding-top: 20px;
-    color: #aaa4a4;
+    color: var(--cars-model-color);
     font-family: var(--notosans-font-family);
     font-size: 17px;
 }

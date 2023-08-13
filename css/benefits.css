@@ -1,6 +1,6 @@
 .benefits{
     padding: 60px 0;
-    background-color: #1a1a1a;
+    background-color: var(--benefits-bg-color);
 }
 
 .benefits__container{
@@ -44,7 +44,7 @@
 .benefits__element{
     margin: 0 15px;
     padding: 31px 27px;
-    background-color: #131313;
+    background-color: var(--benefits-element-bg-color);
 
     user-select: none;
 }
@@ -71,12 +71,12 @@
     margin: 10px 0;
     width: 15%;
     height: 3px;
-    background-color: #e51937;
+    background-color: var(--benefits-element-line-color);
 }
 
 .benefits__element__description{
     padding-top: 5px;
-    color: #aaa4a4;
+    color: var(--benefits-element-description-color);
     font-family: var(--notosans-font-family);
     font-size: 17px;
 
@@ -84,8 +84,6 @@
 
 
 @media(min-width: 991px) {
-
-
     .benefits__element {
         flex: 1;
     }

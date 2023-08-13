@@ -15,6 +15,44 @@ body {
 :root {
     --notosans-font-family: 'Noto Sans', sans-serif;
     --teko-font-family: 'Teko', sans-serif;
+
+    --header-main-title-color: #FFFFFF;
+    --header-main-description-color: #AAA4A4;
+    --header-main-btn-hover-bg-color: #E51937;
+    
+    --header-burger-hover-color: #AAA4A4;
+    
+    --header-nav-wrapper-bg-color: #131313;
+    --header-nav-links-color: #AAA4A4;
+    --header-nav-links-hover-color: #FFFFFF;
+
+    --benefits-bg-color: #1A1A1A;
+    --benefits-element-bg-color: #131313;
+    --benefits-element-line-color: #E51937;
+    --benefits-element-description-color: #AAA4A4;
+
+    --lease-types-bg-color: #1A1A1A;
+    --lease-types-element-bg-color: #FFFFFF;
+    --lease-types-element-title-color: #AAA4A4;
+    --lease-types-element-type-color: #E51937;
+    --lease-types-element-description-color: #707070;
+    --lease-types-element-btn-active-bg-color: #000000;
+    --lease-types-element-btn-active-border-color: #000000;
+    --lease-types-element-btn-active-color: #FFFFFF;
+
+    --cars-bg-color: #1A1A1A;
+    --cars-make-color: #FFFFFF;
+    --cars-price-color: #E51937;
+    --cars-model-color: #AAA4A4;
+
+    --advice-title-color: #FFFFFF;
+
+    --deals-bg-color: #1A1A1A;
+    --deals-element-bg-color: #000000;
+    --deals-element-make-color: #FFFFFF;
+    --deals-element-price-color: #E51937;
+    --deals-element-enquire-btn-color: #FFFFFF;
+    
 }
 
 .container {

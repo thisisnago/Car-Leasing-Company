@@ -1,11 +1,10 @@
 .lease-types {
-    background-color: #1a1a1a;
+    background-color: var(--lease-types-bg-color);
     padding: 60px 0 30px;
 }
 
 .lease-types__element {
-    /* border: 1px solid red; */
-    background-color: #ffffff;
+    background-color: var(--lease-types-element-bg-color);
     margin-bottom: 30px;
 }
 
@@ -22,38 +21,35 @@
 }
 
 .lease-types__element__title {
-    color: #aaa4a4;
+    color: var(--lease-types-element-title-color);
     font-size: 12px;
     font-family: var(--notosans-font-family);
     font-weight: 700;
 }
 
 .lease-types__element__type {
-    color: #e51937;
+    color: var(--lease-types-element-type-color);
     font-family: var(--teko-font-family);
     font-size: 38px;
     padding-top: 10px;
 }
 
 .lease-types__element__description {
-    color: #707070;
+    color: var(--lease-types-element-description-color);
     font-size: 17px;
     font-family: var(--notosans-font-family);
     padding-top: 20px;
 }
 
 .lease-types__element__button {
-    /* display: block; */
-    /* padding: 15px 0; */
-    /* width: 45%; */
     margin-top: 40px;
     font-size: 18px;
 }
 
 .lease-types__element__button:active {
-    background-color: black;
-    border-color: black;
-    color: #ffffff;
+    background-color: var(--lease-types-element-btn-active-bg-color);
+    border-color: var(--lease-types-element-btn-active-border-color);
+    color: var(--lease-types-element-btn-active-color);
 }
 
 .lease-types__element__button__container {

@@ -25,7 +25,7 @@
 .advice__title{
     font-size: 60px;
     font-family: var(--teko-font-family);
-    color: #ffffff;
+    color: var(--advice-title-color);
     font-weight: 500;
     line-height: 60px;
 }

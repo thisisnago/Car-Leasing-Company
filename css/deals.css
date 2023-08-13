@@ -1,11 +1,11 @@
 .deals {
     padding: 90px 0;
-    background-color: #1A1A1A;
+    background-color: var(--deals-bg-color);
 }
 
 .deals__element {
     padding: 27px;
-    background-color: black;
+    background-color: var(--deals-element-bg-color);
     background-image: url("../img/deals/ferrari_inside.webp");
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@
 
 .deals__element__make {
     padding-top: 280px;
-    color: #ffffff;
+    color: var(--deals-element-make-color);
     font-family: var(--teko-font-family);
     font-size: 24px;
     font-weight: 500;
@@ -44,7 +44,7 @@
 
 .deals__element__price {
     padding-top: 20px;
-    color: #E51937;
+    color: var(--deals-element-price-color);
     font-family: var(--notosans-font-family);
     font-size: 12px;
     font-weight: 700;
@@ -58,7 +58,7 @@
 }
 
 .deals__element__enquire-button a {
-    color: #ffffff;
+    color: var(--deals-element-enquire-btn-color);
 }
 
 .deals__element__enquire-button a:hover {
