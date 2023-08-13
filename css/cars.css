@@ -19,23 +19,17 @@
     user-select: none;
     width: 100%;
     flex: 1;
-
-    /* max-width: 767px; */
-    /* height: 400px; */
     margin: auto;
-
 }
 
 .cars__vehicles__img{
     width: 90%;
     aspect-ratio: 5/2;
-    /* border: 1px solid red; */
     display: flex;
     margin: auto;
 }
 
 .cars__vehicles__img img{
-    /* display: block; */
     width: 100%;
     height: 100%;
     object-fit: contain;
