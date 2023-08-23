@@ -1,10 +1,10 @@
 .brands {
-    background-color: #1a1a1a;
+    background-color: var(--brands-bg-color);
     padding-top: 55px;
 }
 
 .brands__element {
-    background-color: #131313;
+    background-color: var(--brands-element-bg-color);
     margin-top: 50px;
 
     width: 100%;

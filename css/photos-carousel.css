@@ -1,5 +1,5 @@
 .photos-carousel {
-    background-color: #131313;
+    background-color: var(--photos-carousel-bg-color);
     padding: 30px 0;
 }
 

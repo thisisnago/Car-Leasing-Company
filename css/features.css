@@ -1,5 +1,5 @@
 .features {
-    background-color: #1a1a1a;
+    background-color: var(--features-bg-color);
     padding: 90px 0 10px;
 }
 
@@ -11,7 +11,7 @@
 /* features element */
 
 .features__main__element {
-    background-color: #131313;
+    background-color: var(--features-element-bg-color);
     padding: 27px 25px;
     margin-bottom: 50px;
     width: 100%;
@@ -29,7 +29,7 @@
 
 .features__main__element__title {
     padding-top: 20px;
-    color: #ffffff;
+    color: var(--features-element-title-color);
     font-size: 24px;
     font-family: var(--teko-font-family);
     font-weight: 500;
@@ -37,20 +37,20 @@
 
 .features__main__element__description {
     padding-top: 20px;
-    color: #9B9797;
+    color: var(--features-element-description-color);
     font-size: 17px;
     font-family: var(--notosans-font-family);
 }
 
 .features__main__element__button {
     padding-top: 27px;
-    color: #ffffff;
+    color: var(--features-element-btn-color);
     font-size: 18px;
     font-family: var(--teko-font-family);
 }
 
 .features__main__element__button a {
-    color: #ffffff;
+    color: var(--features-element-btn-color);
 }
 
 .features__main__element__button:hover {

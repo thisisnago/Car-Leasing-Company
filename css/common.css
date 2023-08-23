@@ -52,7 +52,56 @@ body {
     --deals-element-make-color: #FFFFFF;
     --deals-element-price-color: #E51937;
     --deals-element-enquire-btn-color: #FFFFFF;
+
+    --about-us-title-color: #E51937;
+    --about-us-main-bg-color: #131313;
+    --about-us-main-text-color: #9B9797;
+
+    --features-bg-color: #1A1A1A;
+    --features-element-bg-color: #131313;
+    --features-element-title-color: #FFFFFF;
+    --features-element-description-color: #9B9797;
+    --features-element-btn-color: #FFFFFF;
+
+    --reviews-bg-color: #1A1A1A;
+    --reviews-main-btn-color: #E51937;
+    --reviews-element-name-color: #FFFFFF;
+    --reviews-element-job-color: #E51937;
+    --reviews-element-response-color: #9B9797;
+    --reviews-element-date-color: #E51937;
     
+    --news-bg-color: #1A1A1A;
+    --news-topic-and-date-color: #E51937;
+    --news-title-color: #FFFFFF;
+    --news-description-color: #9B9797;
+    
+    --brands-bg-color: #1A1A1A;
+    --brands-element-bg-color: #131313;
+
+    --contacts-bg-color: #131313;
+    --contacts-title-color: #FFFFFF;
+    --contacts-title-span-color: #E51937;
+    --contacts-description-color: #AAA4A4;
+    --contacts-icon-color: #FF0000;
+    --contacts-link-color: #FFFFFF;
+
+    --photos-carousel-bg-color: #131313;
+
+    --footer-bg-color: #131313;
+    --footer-description-color: #9B9797;
+    --footer-link-svg-outer-color: #E51937;
+    --footer-link-svg-outer-hover-color: #EB465E;
+    --footer-link-svg-border-color: #E51937;
+    --footer-link-svg-border-hover-color: #EB465E;
+    --footer-link-svg-logo-color: #FFFFFF;
+    --footer-title-color: #FFFFFF;
+    --footer-links-color: #9B9797;
+    --footer-links-hover-color: #FFFFFF;
+    --footer-offers-input-bg-color: #2A2A2A;
+    --footer-offers-input-color: #FFFFFF;
+    --footer-offers-input-placeholder-color: #AAA4A4;
+    --footer-line-color: #FFFFFF;
+    --footer-bottom-text-color: #AAA4A4;
 }
 
 .container {

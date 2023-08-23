@@ -1,17 +1,11 @@
 .reviews {
-    background-color: #1a1a1a;
+    background-color: var(--reviews-bg-color);
     padding: 50px 0 60px;
 }
 
 .reviews__top {
     text-align: center;
 }
-
-/* .reviews__main__element {
-    background-color: aliceblue;
-    width: 100%;
-    aspect-ratio: 2/2;
-} */
 
 .reviews__main {
     margin: auto;
@@ -30,7 +24,7 @@
     cursor: pointer;
 
     font-size: 30px;
-    color: #e51937;
+    color: var(--reviews-main-btn-color);
     background-color: transparent;
     border: none;
 }
@@ -70,7 +64,7 @@
 
 .reviews__main__element__name {
     padding-top: 20px;
-    color: #ffffff;   
+    color: var(--reviews-element-name-color);   
     font-size: 24px;
     font-family: var(--teko-font-family); 
     font-weight: 500;
@@ -79,7 +73,7 @@
 
 .reviews__main__element__job {
     padding-top: 20px;
-    color: #e51937;
+    color: var(--reviews-element-job-color);
     font-size: 12px;
     font-family: var(--notosans-font-family);
     font-weight: 500;
@@ -89,7 +83,7 @@
 
 .reviews__main__element__response {
     padding-top: 20px;
-    color: #9B9797;
+    color: var(--reviews-element-response-color);
     font-size: 17px;
     font-family: var(--notosans-font-family);
     
@@ -97,7 +91,7 @@
 
 .reviews__main__element__date {
     padding-top: 20px;
-    color: #e51937;
+    color: var(--reviews-element-date-color);
     font-size: 12px;
     font-family: var(--notosans-font-family);
     text-transform: uppercase;

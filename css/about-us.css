@@ -14,7 +14,7 @@
     padding: 0;
     margin: 0;
 
-    background-color: #131313;
+    background-color: var(--about-us-main-bg-color);
 
 }
 
@@ -23,11 +23,11 @@
 }
 
 .about-us__main__title span {
-    color: #E51937;
+    color: var(--about-us-title-color);
 }
 
 .about-us__main__text-block {
-    color: #9B9797;
+    color: var(--about-us-main-text-color);
     font-family: var(--notosans-font-family);
     font-size: 17px;
 }

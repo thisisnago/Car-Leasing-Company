@@ -1,5 +1,5 @@
 .news {
-    background-color: #1a1a1a;
+    background-color: var(--news-bg-color);
     padding: 55px 0 10px;
 }
 
@@ -26,7 +26,7 @@
 
 .news__main__topic-and-date {
     padding-top: 20px;
-    color: #e51937;
+    color: var(--news-topic-and-date-color);
     font-size: 12px;
     font-family: var(--notosans-font-family);
     font-weight: 700;
@@ -34,7 +34,7 @@
 
 .news__main__title {
     padding-top: 20px;
-    color: #ffffff;
+    color: var(--news-title-color);
     font-size: 24px;
     font-family: var(--teko-font-family);
     font-weight: 500;
@@ -43,7 +43,7 @@
 
 .news__main__description {
     padding-top: 20px;
-    color: #9B9797;
+    color: var(--news-description-color);
     font-size: 17px;
     font-family: var(--notosans-font-family);
 }
