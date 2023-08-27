@@ -161,6 +161,11 @@ footer {
     font-weight: 700;
 }
 
+.footer__bottom__text a {
+    text-decoration: underline;
+    color: var(--footer-botom-text-color);
+}
+
 
 @media(min-width: 991px) {
     .footer__container {
