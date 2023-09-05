@@ -89,6 +89,5 @@
 
     renderCarousel();
 
-    // setInterval(next, 1000);
 
 })();

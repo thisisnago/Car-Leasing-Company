@@ -19,18 +19,6 @@
         </div>`;
     }
 
-    // const carouselElement = document.querySelector(".benefits-carousel__element");
-    // carouselElement.innerHTML = `
-    //                 <div class="benefits-carousel__element__icon">
-    //                     <img src="${element.img}" alt="card">
-    //                 </div>
-    //                 <p class="benefits-carousel__element__title">${element.title}</p>
-    //                 <div class="benefits-carousel__element__line"></div>
-    //                 <p class="benefits-carousel__element__description">
-    //                     ${element.description}
-    //                 </p>
-    // `;
-
 
     function renderCarousel(slideIdx) {
         const card = benefits[slideIdx];
@@ -71,6 +59,5 @@
 
 
     window.addEventListener('resize', () => {renderCarousel(currentSlideIdx)});
-    // setInterval(next, 1000);
 
 })()
